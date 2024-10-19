@@ -1,0 +1,131 @@
+.specialists__wr{
+     display: flex;
+     margin-top: 140px;
+     align-items: center;
+     justify-content: space-between;
+     // gap: 20px;
+     @include media (880px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .specialists__wr-img{
+     
+     }
+     .specialists__wr__text{
+         
+          .specialists__wr-titel{
+               font-weight: 700;
+               font-size: 36px;
+               line-height: 43px;
+               color: $titel-color;
+               width: 100%;
+               display: flex;
+               @include media (1005px){
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 33px;
+                    
+               }
+               @include media (880px){
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+               }
+          }
+          .specialists__wr-link{
+               font-weight: 400;
+               font-size: 18px;
+               line-height: 25px;
+               color: rgba(0, 185, 182, 1);
+               text-decoration: none;
+               display: flex;
+               margin-top: 5px ;
+               margin-bottom: 42px;
+               @include media (1005px){
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22px;
+               }
+               @include media (880px){
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+               }
+          }
+          .specialists__wr__decs-titel{
+               margin-left: 50px;
+               font-weight: 700;
+               font-size: 20px;
+               line-height: 28px;
+               color: $titel-color;
+               margin-bottom: 5px;
+               @include media (1005px){
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 25px;
+               }
+
+          }
+          .specialists__wr__decs{
+               width: 100%;
+               max-width: 690px;
+               position: relative;
+               margin-left: 50px;
+               font-weight: 400;
+               font-size: 18px;
+               line-height: 27px;
+               color: $text-color;
+               margin-bottom: 71px;
+               @include media (1005px){
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+               }
+               .specialists__wr__text-img1{
+                    padding: 12px 12px;
+                    position: absolute;
+                    top: -53px;
+                    left: -50px;
+                    @include media (1005px){
+                        width: 49px;
+                        height: 100px;
+                        position: absolute;
+                        top: -20px;
+                        left: -30px;
+                        padding: 12px 12px;
+                    }
+               }
+               .specialists__wr__text-img2{
+                    padding: 12px 12px;
+                    position: absolute;
+                    top: -53px;
+                    left: -50px;
+                    @include media (1005px){
+                         width: 49px;
+                         height: 100px;
+                         padding: 12px 12px;
+                         position: absolute;
+                         top: -20px;
+                         left: -30px;
+                     }
+               }
+               .specialists__wr__text-img3{
+                    padding: 12px 12px;
+                    position: absolute;
+                    top: -53px;
+                    left: -50px;
+                    @include media (1005px){
+                         width: 49px;
+                         height: 100px;
+                         position: absolute;
+                         top: -20px;
+                         left: -30px;
+                     }
+               }
+          }
+     }
+}

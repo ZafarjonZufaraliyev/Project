@@ -1,0 +1,233 @@
+.discount__wr{
+     margin-top: 145px;
+     .discount__wr-titel{
+          display: flex;
+          justify-content: flex-start;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 43px;
+          color: rgba(14, 14, 15, 1);
+          margin-bottom: 50px;
+     }
+     .card-wr{
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               @include media(1178px){
+                    display: flex;
+                    flex-direction: column-reverse;
+                    gap: 30px;
+               }
+          .discount__wr-card1{
+              
+               height: 317px;
+               width: 100%;
+               max-width: 454px;
+               background: rgba(0, 185, 182, 0.1);
+               border-radius: 24px;
+               .card1-titel{
+                    margin: 20px 0px 0px 30px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: rgba(51, 51, 51, 1);
+                   
+               }
+               .card1-price{
+                    display: flex;
+                    align-items: end;
+                    margin: 20px 0px 0px 30px;
+                    h2{
+                         font-weight: 700;
+                         font-size: 56px;
+                         line-height: 56px;
+                         color: rgba(51, 51, 51, 1);
+                         @include media(970px){
+                              font-weight: 700;
+                              font-size: 38px;
+                              line-height: 38px;
+                         }
+                    }
+                    p{
+                         font-weight: 400;
+                         font-size: 24px;
+                         line-height: 33px;
+                         color: rgba(51, 51, 51, 1);
+                    }
+               }
+               .card1-list{
+                    margin: 30px 0px 0px 30px;
+                    list-style: none;
+                    .card1-list-atem{
+                         font-weight: 400;
+                         font-size: 18px;
+                         line-height: 25px;
+                         color: rgba(51, 51, 51, 1);
+                    }
+               }
+               .card1-btn{
+                         margin: 30px 0px 30px 30px;
+                         
+                    a {
+                         font-weight: 700;
+                         font-size: 18px;
+                         line-height: 21px;
+                         border-radius: 24px;
+                         list-style: none;
+                         color: rgba(0, 185, 182, 1);
+                         text-decoration: none;
+                         background-color: rgba(255, 255, 255, 1);
+                         padding: 13px 30px;
+                         @include media(970px){
+                            padding: 10px 100px;
+                         }
+                    }
+               }
+          }
+          .discount__wr-card2{
+               width: 100%;
+               max-width: 649px;
+               height: 358px;
+               background: rgba(0, 185, 182, 1);
+               border-radius: 24px;
+               position: relative;
+               @include media (1240px){
+                   height: 100%;
+                    
+               }
+               .card2-logo{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    display: flex;
+                    gap: 10px;
+                    align-items: flex-start;
+                    justify-content: flex-end        ;
+                    padding: 9px 17px 9px;
+                    width: fit-content;
+                    border-radius: 0px 24px 0px 12px;
+                    color: rgba(255, 255, 255, 1);
+                    background-color: rgba(255, 168, 0, 1);
+               }
+               .card2-titel{
+                   
+                    margin: 20px 0px 0px 30px;
+                    margin-top: 47px;
+                    margin-bottom: 5px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: rgba(255, 255, 255, 1)
+               }
+               .card2-price{
+                    display: flex;
+                    align-items: end;
+                    margin: 5px 0px 0px 30px;
+                    margin-bottom: 30px;
+                    h2{
+                         font-weight: 700;
+                         font-size: 56px;
+                         line-height: 56px;
+                         color: rgba(255, 255, 255, 1);
+                         @include media(970px){
+                              font-weight: 700;
+                              font-size: 38px;
+                              line-height: 38px;
+                         }
+                    }
+                    p{
+                         font-weight: 400;
+                         font-size: 24px;
+                         line-height: 33px;
+                         color: rgba(255, 255, 255, 1);
+                    }
+               }
+               .card2-list{
+                    margin-left: 30px;
+                    list-style: none;
+                    .card2-list-atem{
+                         font-weight: 400;
+                         font-size: 18px;
+                         line-height: 25px;
+                         color: rgba(255, 255, 255, 1);
+                    }
+               }
+               .card__2{
+                    display: flex;
+                    align-items: center;
+                    @include media (1240px){
+                         display: flex;
+                         flex-direction: column;
+                         
+                    }
+                    justify-content: space-between;
+                    gap: 20px;
+                    .card2-btn{
+                         position: relative;
+                         padding: 12px 20px;
+                         margin: 30px 0px 30px;
+                         border-radius: 12px;
+                         background-color: rgba(255, 255, 255, 1);
+                         .btn-date{
+                          font-weight: 400;
+                          font-size: 18px;
+                          line-height: 24px;
+                          color: rgba(51, 51, 51, 1);
+                         }
+                         i{
+                              color: rgba(0, 185, 182, 1);
+                              margin:0px 13px;
+                         }
+                         .btn-min{
+                              margin-left: 60px;
+                              font-weight: 400;
+                              font-size: 18px;
+                              line-height: 24px;
+                              color: rgba(175, 175, 175, 1);
+                              &::after {
+                                   content: '';
+                                   width: 2px;
+                                   background: rgba(224, 224, 224, 1);
+                                   height: 100%;
+                                   position: absolute;
+                                   top: 0;
+                                   left: 235px;
+                                   display: block;
+                              }
+                         }
+                         .btn-gr{
+                              color: rgba(175, 175, 175, 1);
+                              height: 100%;
+                         }
+                     }
+                     .card1-btn{
+                         // margin: 0px 30px 0px 0px;
+               
+                    a {
+                         font-weight: 700;
+                         font-size: 18px;
+                         line-height: 21px;
+                         border-radius: 24px;
+                         list-style: none;
+                         color: rgba(0, 185, 182, 1);
+                         text-decoration: none;
+                         background-color: rgba(255, 255, 255, 1);
+                         padding: 13px 30px;
+                         @include media (1240px){
+                              display: flex;
+                              width: 100%;
+                              padding: 10px 170px;
+                              align-items: center;
+                              justify-content: center;
+                              margin-bottom: 20px;
+                              // bottom: 20px;
+                         }
+                    }
+               }
+               }
+
+          }
+
+     }
+
+}

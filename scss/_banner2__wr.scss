@@ -1,0 +1,84 @@
+.banner2__wr{
+     display: flex;
+     margin-top: 141px;  
+     justify-content: space-between;
+     @include media(990px){
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          gap: 20px;
+          
+     }
+     .banner2-img{
+          border-radius: 25px;
+     }
+     .banner2__text{
+          margin-top: 14px;
+          .banner2__text-titel{
+               width: 100%;
+               max-width: 454px;
+               font-weight: 700;
+               font-size: 32px;
+               line-height: 38px;
+               color: $titel-color;
+               margin-bottom: 38px;
+               @include media(990px){
+                    font-weight: 700;
+               font-size: 28px;
+               line-height: 33px;
+                    
+               }
+          }
+          .banner2__text__spek{
+               width: 455px;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               gap: 20px;
+               margin-bottom: 74px;
+               .banner2__text__spek-img{
+                    padding: 13px 13px;
+                    border-radius: 12px;
+                    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.05);
+
+               }
+               .banner2__text__spek-titel{
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 33px;
+                    color: $pr-color;
+                    margin-bottom: 5px;
+               }
+               .banner2__text__spek-decs{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #333;
+               }
+               .banner2__text__spek__wr{
+                    display: flex;
+                    flex-direction: column;
+                    width: 303px;
+               }
+          }
+          .banner2__text-btn{
+               display: flex;
+               align-items: center;
+               gap: 20px;
+               text-decoration: none;
+
+               .banner2__text-btn{
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 21px;
+                    color: $pr-color;
+                    padding: 20px 20px;
+                    background-color: aliceblue;
+                    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.05);
+                    border-radius: 12px;
+               }
+          }
+     }
+}

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link rel="stylesheet" href="scss/main.css">
+</head>
+<body>
+     <header >
+          <div class="container">
+               <div class="header__wr">
+                    <div class="header-logo">
+                         <img src="img/logo.svg" alt="">
+                    </div>
+                    <ul class="header__list">
+                         <li class="hr-list-item">About us</li>
+                         <li class="hr-list-item">Blog</li>
+                         <li class="hr-list-item">Contact</li>
+                    </ul>
+                    <div class="hr__icons">
+                         <label for="lang"><img src="img/flags.svg"  class="flag"></label>
+                         <select name="lang" class="hr__icons-lang">
+                              <option value="EN">EN</option>
+                              <option value="UZ">UZ</option>
+                              <option value="RU">RU</option>
+                         </select>
+                         <button class="hr__icons-btn">Войти</button>
+                         <button class="hr__icons-btn1"><img src="img/header-buttn.svg" alt=""></button>
+                    </div>
+               </div>
+          </div>
+     </header>
+     <main>
+          <div class="container">
+               <div class="hero__wr">
+                    <div class="hero__text">
+                         <p class="hero__text-decs">+300 прошедших отбор психологов</p>
+                         <h2 class="hero__text-titel">Сессии с психологом Онлайн</h2>
+                         <button class="hero__text-btn">Начать беседу</button>
+                    </div>
+                    <div class="hero__img">
+                         <div class="hero__img-person"><img src="img/hero-person.svg" alt=""></div>
+                         <!-- <div><img class="hero__img-cloud" src="img/hero-blut1.svg" alt=""></div>
+                         <div><img class="hero__img-cloud1" src="img/hero-blut2.svg" alt=""></div> -->
+                    </div>
+               </div>
+               <div class="banner__wr">
+                    <div class="banner-img">
+                         <img src="img/banner.svg" alt="">
+                    </div>
+                <div class="banner__text">
+                         <h2 class="banner__text-titel">Скачайте бесплатно приложение SPEAK</h2>
+                         <div class="banner__text__spek">
+                              <img src="img/Speak Logo.svg" alt="" class="banner__text__spek-img">
+                              <div class="banner__text__spek__wr">
+                                   <h2 class="banner__text__spek-titel">Speak</h2>
+                              <p class="banner__text__spek-decs">онлайн сессии с психологом
+                                   доступно для iOS и Android</p>
+                              </div>
+                         </div>
+                         <div class="banner__text-btn">
+                               <a href="https://www.apple.com/store" target="_blank" class="banner__text-btn">
+                                   <img src="img/Apple.svg" alt="">Play market
+                               </a>
+                               <a href="https://play.google.com/store/apps?hl=ru" target="_blank" class="banner__text-btn">
+                                   <img src="img/playmarket.svg" alt="">Apple store
+                               </a>
+                         </div>
+                </div>
+               </div>
+               <div class="psychologists">
+                    <h2 class="Psychologists-titel">Психологи работающие с актуальными темами</h2>
+                    <div class="psychologists__work">
+                     <div class="work-card">
+                         <p class="psychologists__work-btn">Чувства</p>
+                     <p class="psychologists__work-btn">Одиночество</p>
+                     <p class="psychologists__work-btn" style="color:#00B9B6">Вредные привычки</p>
+                     <p class="psychologists__work-btn">Отношения</p>
+                     <p class="psychologists__work-btn">Работа</p>
+                     <p class="psychologists__work-btn">Смыслы</p>
+                     </div>
+                     <div class="work-card">
+                         <p class="psychologists__work-btn">Одиночество</p>
+                     <p class="psychologists__work-btn">Одиночество</p>
+                     <p class="psychologists__work-btn">Отношения с близкими</p>
+                     <p class="psychologists__work-btn" style="background-color: #00B9B6; color: #fff;">+ 300 психологов</p>
+                     </div>
+                    </div>
+                    <div class="psychologists__person-wr">
+                         <div class="psychologists__person-card">
+                              <img src="img/person1.svg"   alt="" class="peson__card-img">
+                              <div class="person-name">Илья Благов</div>
+                         <div class="person-rating">
+                              <div class="rating-star">
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              <i class="fa-regular fa-star"></i>
+                              </div>
+                              <i class="fa-solid fa-arrow-right"></i>
+                         </div>
+                         </div>
+                         <div class="psychologists__person-card">
+                              <img src="img/person2.svg" alt="" class="peson__card-img"><div class="person-name">Иванна Есина</div>
+                         <div class="person-rating">
+                              <div class="rating-star">
+                                   <i class="fa-regular fa-star"></i>
+                                   <i class="fa-regular fa-star"></i>
+                                   <i class="fa-regular fa-star"></i>
+                                   <i class="fa-regular fa-star"></i>
+                                   </div>
+                              <i class="fa-solid fa-arrow-right"></i>
+                         </div>
+                         </div>
+                         <div class="psychologists__person-card">
+                              <img src="img/person1.svg" alt="" class="peson__card-img">
+                              <div class="person-name">Иванна Есина</div>
+                              <div class="person-rating">
+                                   <div class="rating-star">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        </div>
+                                   <i class="fa-solid fa-arrow-right"></i>
+                              </div></div>
+                         <div class="psychologists__person-card">
+                              <img src="img/person2.svg" alt="" class="peson__card-img">
+                              <div class="person-name">Илья Благов</div>
+                              <div class="person-rating">
+                                   <div class="rating-star">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        </div>
+                                   <i class="fa-solid fa-arrow-right"></i>
+                              </div></div>
+                         <div class="psychologists__person-card">
+                              <img src="img/person2.svg" alt="" class="peson__card-img">
+                              <div class="person-name">Илья Благов</div>
+                              <div class="person-rating">
+                                   <div class="rating-star">
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        </div>
+                                   <i class="fa-solid fa-arrow-right"></i>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="help__wr">
+                    <div class="help-text">
+                         <h2 class="help-titel">Поможем вам</h2>
+                         <ul class="help-text-list">
+                              <li class="help-text-list-atem"><div class="son"><i class="fa-solid fa-check"></i></div>Разрешить причины сложных отношений с партнером</li>
+                              <li class="help-text-list-atem"><div class="son"><i class="fa-solid fa-check"></i></div>Снять или снизить остроту переживаний</li>
+                              <li class="help-text-list-atem"><div class="son"><i class="fa-solid fa-check"></i></div>Справиться с выгоранием на работе и найти мотивацию</li>
+                              <li class="help-text-list-atem"><div class="son"><i class="fa-solid fa-check"></i></div>Понять себя в отношениях с близкими людьми</li>
+                              <li class="help-text-list-atem"><div class="son"><i class="fa-solid fa-check"></i></div>Найти себя и понимать свои желания</li>
+                              <li class="help-text-list-atem"><div class="son"><i class="fa-solid fa-check"></i></div>Исследовать и управлять изменениями в своей жизни</li>
+                         </ul>
+                    </div>
+                    <div class="help-img"><img src="img/help.svg" alt=""></div>
+               </div>
+               <div class="online__wr">
+                    <div class="online__wr-img"><img src="img/online.svg" alt=""></div>
+                    <div class="online__wr__text">
+                         <h2 class="online__wr__text-titel">Преимущества онлайн сессий с психологом</h2>
+                         <p class="online__wr__text__decs-titel">Занимайтесь где и как удобно</p>
+                         <p class="online__wr__text__decs">Дома или в поездке и в любом часовом поясе</p>
+                         <p class="online__wr__text__decs-titel">Меньше забот- больше мотивации</p>
+                         <p class="online__wr__text__decs">Не тратьте время на дорогу и управляйте занятиями в два клика</p>
+                         <p class="online__wr__text__decs-titel">Доверяйте себе</p>
+                         <p class="online__wr__text__decs">Выбирайте среди проверенных психологов, которые специаллизируются на ваших запросах</p>
+
+                    </div>
+               </div>
+               <div class="specialists__wr">
+                    <div class="specialists__wr__text">
+                         <h2 class="specialists__wr-titel">Как мы отбираем специалистов?</h2>
+                         <a href="#" class="specialists__wr-link">Отбор проходят меньше 10% специаллистов</a>  
+                         <p class="specialists__wr__decs-titel">Документы об образовании</p>
+                         <p class="specialists__wr__decs">Обяз
+                              ательно иметь высшее психологическое образование и сертификаты для ведения психотерапии
+                              <img src="img/num1.svg"  class="specialists__wr__text-img1"></p>
+                         <p class="specialists__wr__decs-titel">Опыт частной практики и личной терапии</p>
+                         <p class="specialists__wr__decs">Нужно не менее 3-х лет частной практики, личная терапия и регулярные супервизии
+                              <img src="img/num2.svg"  class="specialists__wr__text-img2">
+                         </p>
+                         <p class="specialists__wr__decs-titel">Собеседование с нашим экспертом-ментором</p>
+                         <p class="specialists__wr__decs">Отслеживаются коммуникативные способности, уровень эмпатии, манера и стиль беседы,  проффесиональные компетенции
+                              <img src="img/num3.svg"  class="specialists__wr__text-img3">
+                         </p>
+
+                    </div>
+                    <div class="specialists__wr-img">
+                         <img src="img/specialist.svg" alt="">
+                    </div>
+               </div>
+               <div class="service__wr">
+                    <h2 class="service-titel">О сервисе</h2>
+                    <div class="service__wr__banner">
+                         <img class="service__wr-img" src="img/service.svg" >
+                         <div class="service__wr__rating">
+                              <div class="service__wr__rating-card">
+                                   <span class="service-span">900 +</span>
+                                   <p class="service-p">регистраций вчера</p>
+                              </div>
+                              <div class="service__wr__rating-card">
+                                   <span>75 000 +</span>
+                                   <p>проведено сессий</p>
+                              </div>
+                              <div class="service__wr__rating-card">
+                                   <span>354 +</span>
+                                   <p>психологов</p>
+                              </div>
+                         </div>
+                         
+                    </div>
+                    <div class="banner-date">
+                         <div class="card">
+                              <img src="img/bannercard.svg" alt="">
+                             <div class="card__text">
+                              <h2 class="card-titel">Подбор “По позже”</h2>
+                              <p class="card-decs">Подбор с возможностью бронирование сессии на будущее</p>
+                             </div>
+                         </div>
+                         <div class="card">
+                              <img src="img/bannercard1.svg" alt="">
+                              <div class="card__text">
+                                   <h2 class="card-titel">Подбор “Сейчас”</h2>
+                                   <p class="card-decs">Подбор с возможностью начала сессии 
+                                   “здесь и сейчас”</p>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="arranged__wr">
+                    <h2 class="arranged__wr-titel">Как это устроено</h2>
+                    <div class="arranged-btn-icons">
+                         <div class="icon1">1</div>
+                         <div class="icon2">2</div>
+                         <div class="icon1">3</div>
+                         <div class="icon1">4</div>
+                         <div class="icon1">5</div>
+                    </div>
+                    <div class="arranged__wr__text">
+                         <div class="card__wr" style="display: flex; flex-direction: column;">
+                              <div class="text-card">
+                                   
+                                   <h2 class="arranged__wr__text-titel">
+                                        <div class="tartib1">1</div>   Заполните простую анкету
+                                   </h2>
+                                   <p class="arranged__wr__text-decs">
+                                        Расскажите, что вас беспокоит и что важно в психологе.
+                                    </p>
+                              </div>
+                              <div class="text-card">
+                                   <h2 class="arranged__wr__text-titel">
+                                        <div class="tartib1">2</div> Выберите способ связи с психологом
+                                   </h2>
+                                   <p class="arranged__wr__text-decs">
+                                        49руб/мин по аудио/видео связи 200 руб за 24 часа чата + аудио   сообщения
+                                   </p>
+                              </div>
+                         </div>
+                    
+                         <div class="arranged__wr-img"><img src="img/arranged.svg"></div>
+                         <div class="card__wr" style="display: flex; flex-direction: column;">
+                              <div class="text-card">
+                                   <h2 class="arranged__wr__text-titel"> <div class="tartib1">3</div> Выберите психолога</h2>
+                                   <p class="arranged__wr__text-decs">
+                                        Выберите понравившегося психолога 
+                                   </p>
+                              </div>
+                             <div class="text-card">
+                              <h2 class="arranged__wr__text-titel"> <div class="tartib1">4</div> Начните общение</h2>
+                              <p class="arranged__wr__text-decs">Все общение происходит через платформу SPEAK. Вслучае если психолог вам не понравится, вы можете заменить его без дополнительных переплат</p>
+                             </div>
+                         </div>
+                    </div>
+                    <div class="arranged-btn-text">
+                         <h2 class="btn-text">Заполните простую анкету</h2>
+                         <p class="btn-text">Расскажите, что вас беспокоит и что важно в психологе. </p>
+                    </div>
+                    <div class="arranged-btn">
+                         <button>Начать общение</button>
+                    </div>
+               </div>
+               <div class="discount__wr">
+                    <h2 class="discount__wr-titel">Услуги</h2>
+                    <div class="card-wr">
+                         <div class="discount__wr-card1">
+                              <h2 class="card1-titel">24 часа чата </h2>
+                              <div class="card1-price">
+                                   <h2>4200₽</h2>
+                                   <p>/24 часа</p>
+                              </div>
+                              <ul class="card1-list">
+                                   <li class="card1-list-atem">24 часа доступа к чату с психологом</li>
+                                   <li class="card1-list-atem">Аудио сообщения</li>
+                              </ul>
+                              <div class="card1-btn"><a href="#">Перейти</a></div>
+                         </div>
+                         <div class="discount__wr-card2">
+                              <div class="card2-logo">
+                                   <p class="card2-logo-titel">Популярное</p>
+                                   <i class="fa-regular fa-star"></i>
+                              </div>
+                              <h2 class="card2-titel">Аудио/Видео сессии</h2>
+                              <div class="card2-price">
+                                   <h2>49₽</h2>
+                                   <p>/1 минута</p>
+                              </div>
+                              <ul class="card2-list">
+                                   <li class="card2-list-atem">
+                                        Безлимитный доступа к чату с психологом до начала сессии
+                                   </li>
+                                   <li class="card2-list-atem">Аудио/Видео звонки
+                                   </li>
+                                   <li class="card2-list-atem">Нет лимитов по времени разговора
+                                   </li>
+                              </ul>
+                              <div class="card__2">
+                                   <div class="card2-btn">
+                                        <i class="fa-solid fa-arrow-left"></i>
+                                        <span class="btn-date">20</span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <span class="btn-min">min</span>
+                                        <!-- <span class="btn-gr">|</span> -->
+                                        <span style="font-weight: 400;
+                                        font-size: 18px;
+                                        line-height: 24px;
+                                        color: rgba(51, 51, 51, 1);
+                                        margin-left: 20px;">40</span>
+                                        <span style="margin: 0px 20px 0px 90px;
+                                        color:rgba(175, 175, 175, 1);">₽</span>
+                                   </div>
+                                   <div class="card1-btn"><a href="#">Перейти</a></div>
+     
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="banner2__wr">
+                    <div class="banner2__text">
+                         <h2 class="banner2__text-titel">Скачайте бесплатно приложение SPEAK</h2>
+                         <div class="banner2__text__spek">
+                              <img src="img/Speak Logo.svg" alt="" class="banner2__text__spek-img">
+                              <div class="banner2__text__spek__wr">
+                                   <h2 class="banner2__text__spek-titel">Speak</h2>
+                              <p class="banner2__text__spek-decs">онлайн сессии с психологом
+                                   доступно для iOS и Android</p>
+                              </div>
+                         </div>
+                         <div class="banner2__text-btn">
+                               <a href="https://www.apple.com/store" target="_blank" class="banner2__text-btn">
+                                   <img src="img/Apple.svg" alt="">Play market
+                               </a>
+                               <a href="https://play.google.com/store/apps?hl=ru" target="_blank" class="banner2__text-btn">
+                                   <img src="img/playmarket.svg" alt="">Apple store
+                               </a>
+                         </div>
+                    </div>
+                    <div class="banner2-img">
+                              <img src="img/phone_p.svg" alt="">
+                    </div>
+                    
+               </div>
+               <div class="reviews__wr">
+                    <h2 class="reviews__wr-titel">Отзывы</h2>
+                    <div class="card-item">
+                         <div class="card" >
+                              <div class="card-img">
+                                   <img src="img/reviews.svg" alt="">
+                              </div>
+                              <div class="card__text">
+                                   <div class="card__text-rating">
+                                        <h2 class="card__text-name">Sophia Jones</h2>
+                                        <div class="card__text-star">
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                        </div>
+                                   </div>
+                                   <div class="card__text-info">
+                                        <h2>Teacher</h2>
+                                        <p>After just 2 months, Speak has already made such an impact on my life. It has helped me develop manageable solutions to feelings of stress, anxiety, and overwhelm. Speaker helped me navigate the difficult stages of grief after losing my mom, with compassion and encouragement. And she’s easy to open up to, making me feel heard and understood.</p>
+                                   </div>
+                              </div>
+                              </div>
+                         <div class="card1" >
+                              <div class="card-img">
+                                   <img src="img/reviews1.svg" alt="">
+                              </div>
+                              <div class="card__text">
+                                   <div class="card__text-rating">
+                                        <h2 class="card__text-name">Jay K. Braun</h2>
+                                        <div class="card__text-star">
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                        </div>
+                                   </div>
+                                   <div class="card__text-info">
+                                        <h2>Artist</h2>
+                                        <p>After just 2 months, Speak has already made such an impact on my life. It has helped me develop manageable solutions to feelings of stress, anxiety, and overwhelm. After losing my mom, with compassion and </p>
+                                   </div>
+                              </div>
+                              </div>
+                         <div class="card2">
+                              <div class="card-img">
+                                   <img src="img/reviews2.svg" alt="">
+                              </div>
+                              
+                              <div class="card__text">
+                                   <div class="card__text-rating">
+                                        <h2 class="card__text-name">Jay K. Braun</h2>
+                                        <div class="card__text-star">
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                             <i class="fa-regular fa-star"></i>
+                                        </div>
+                                   </div>
+                                   <div class="card__text-info">
+                                        <h2>Artist</h2>
+                                        <p>After just 2 months, Speak has already made such an impact on my life. It has helped me develop manageable solutions to feelings of stm. Speaker helped me navigate the difficult stages of  understood.</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="reviews__wr-l">
+                         <div class="lina"></div>
+                         <div class="lina"></div>
+                         <div class="lina1"></div>
+                         <div class="lina"></div>
+                         <div class="lina"></div>
+                    </div>
+               </div>
+               <div class="child__psychologist__wr">
+                    <h2 class="child__psychologist__wr-titel">Детский психолог онлайн</h2>
+                    <div class="child__psychologist__wr-text">
+                         <div class="text-card">
+                              <h2 class="text-titel">Чем поможет детский психолог онлайн?</h2>
+                         <p class="text-decs">Каждый родитель хочет, чтобы его ребенок рос сильной уравновешенной личностью. Мы понимаем, что именно в детстве формируются зачатки характера. Как справиться с возникающими проблемами, как выстроить отношения с ребенком, чтобы он доверял вам? На эти и другие вопросы поможет ответить детский психолог онлайн.</p>
+                         <h2 class="text-titel">Преимущества онлайн-консультации детского психолога</h2>
+                         <p class="text-decs">Главный плюс сеанса в таком формате – экономия времени. Вам не придется тратить время на дорогу и долгие сборы. Все, что нужно – компьютер или смартфон, микрофон и блокнот с ручкой, чтобы записывать важную информацию. Если вам или ребенку тяжело общаться с незнакомым человеком лично, онлайн-связь в этом случае упростит дело. </p>
+                         <h2 class="text-titel">Когда нужна помощь детского психолога онлайн?</h2>
+                         <p class="text-decs">Онлайн-консультация детского психолога может быть полезна, если у вас есть вопросы по таким темам, как: </p>
+                         <ul class="text-list">
+                              <li class="teext-list-atem">Плохая успеваемость;</li>
+                              <li class="teext-list-atem">Стеснительность;</li>
+                              <li class="teext-list-atem">Цифровая зависимость;</li>
+                              <li class="teext-list-atem">Агрессия;</li>
+                              <li class="teext-list-atem">Потеря близкого в семье;</li>
+                              <li class="teext-list-atem">Возрастной кризис;</li>
+                              <li class="teext-list-atem">Подготовка к детскому саду или школе;</li>
+                              <li class="teext-list-atem">Профориентация.</li>
+                         </ul>
+                         <p class="text-decs">Это лишь часть тем, которые можно затронуть. Помните, что, если возникает ситуация, в которой вы самостоятельно не можете разобраться, сейчас консультация детского психолога онлайн поможет найти ответы. </p>
+                         <h2 class="text-titel">Как проходит онлайн-консультация детского психолога?</h2>
+                         <p class="text-decs"> Lorem ipsum, dolor sit amet llo id similique ratione iste quia animi. Laboriosam, ut ex neus mollitia dolorum quas?
+                         </p>
+                         </div>
+                        <div class="text-card1"> 
+                         <p class="text-decs">Каждый родитель хочет, чтобы его ребенок рос сильной уравновешеннком, чтобы он доверял вам? На эти и другие вопросы поможет ответить детский психолог онлайн.</p>
+                         
+                         <p class="text-decs">Главный плюс сеанса в таком формате – экономия времени. Вам не придется тратить время на дорогу и долгие сборы. Все, что нужно – компьютер или смартфон, микрофон и блокнот с ручкой, чтобы записывать важную информацию. Если вам или ребенку тяжело общаться с незнакомым человеком лично, онлайн-связь в этом случае упростит дело. </p>
+                         <p class="text-decs">Это лишь часть тем, которые можно затронуть. Помните, что, если возникает ситуация, в которой вы самостоятельно не можете разобраться, сейчас консультация детского психолога онлайн поможет найти ответы. </p>
+                         <h2 class="text-titel">Как проходит онлайн-консультация детского психолога?</h2>
+                         <p class="text-decs"> Lorem ipsum, dolor sit amet llo id similique ratione iste quia animi. Laboriosam, ut ex neus mollitia dolorum quas?
+                         </p>
+                         <p class="text-decs">Главный плюс сеанса в таком формате – экономия времени. Вам не придется тратить время на дорогу и долгие сборы. Все, что нужно – компьютер или смартфон, микрофон и блокнот с ручкой, чтобы записывать важную информацию. Если вам или ребенку тяжело общаться с незнакомым человеком лично, онлайн-связь в этом случае упростит дело. </p>
+                         <p class="text-decs">Это лишь часть тем, которые можно затронуть. Помните, что, если возникает ситуация, в которой вы самостоятельно не можете разобраться, сейчас консультация детского психолога онлайн поможет найти ответы. </p>
+                         </div>
+                        
+                    </div>
+               </div>
+          </div>
+     </main>
+     <footer style="background-color: #fff; margin-top: 100px;">
+         <div class="container">
+          <div class="speck__footer">
+               <div class="speck__wr">
+               <div class="speck-titel"><img src="img/logo.svg"></div>
+               <ul class="speck-list">
+                    <li class="list-atem" >Home</li>
+                    <li class="list-atem">Blog</li>
+                    <li class="list-atem">Privacy Policy</li>
+                   
+               </ul>
+               <ul class="speck-list">
+                    <li class="list-atem">About us</li>
+               <li class="list-atem">Contact</li>
+               <li class="list-atem">Terms and Conditions</li>
+               </ul>
+          </div>
+          <div class="speck_icon">
+               <div class="icon">
+                    <img src="img/instagram.svg" alt="">
+                    <img src="img/twitter.svg" alt="">
+                    <img src="img/facebook.svg" alt="">
+                    <img src="img/Vector (3).svg" alt="">
+               </div>
+               <div class="emil">
+                    <img src="img/mail.svg" alt="">
+                    <p>info@speak.help</p>
+               </div>
+               <div class="locat">
+                    <img src="img/pin.svg" alt="">
+                    <p>33 W 60th Street, 8th FI New York, NY 10023</p>
+               </div>
+          </div>
+          </div>
+         </div>
+     </footer>
+</body>
+</html>

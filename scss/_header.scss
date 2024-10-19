@@ -1,0 +1,83 @@
+header .container{
+    position: relative;
+     .header__wr{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 29px;
+          .header-logo{
+               @include media(768px){
+                    max-width: 50px;
+                    height: 10px;
+               }
+          }
+          .header__list{
+               width: 100%;
+               max-width: 683px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               gap: 40px;
+               text-decoration: none;
+               @include media(768px){
+                    display: none;
+               }
+               .hr-list-item{
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #333;
+                    list-style: none;
+
+               }
+          }
+          .hr__icons{
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               gap: 20px;
+              
+               .flag{
+               
+                    width: 26px;
+                    height: 26px;
+                    @include media(768px){
+                         // flex-direction: row-reverse;
+                    }
+               }
+               .hr__icons-lang{
+                    border:none;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #333;
+                    @include media(768px){
+                         display: none;
+                    }
+               }
+               .hr__icons-btn{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #fff;
+                    padding: 12px 30px 12px 30px;     
+                    border-radius: 12px;
+                    border: none;
+                    background-color: $pr-color; 
+                    @media screen and (max-width: 768px) {
+                         // flex-direction: row-reverse;
+                    }
+               }
+               .hr__icons-btn1{
+                    display: none;
+                    @media screen and (max-width: 768px) {
+                         display: flex;
+                         border: 1px solid $titel-color;
+                    }
+               }
+          }
+          
+          
+     }
+}

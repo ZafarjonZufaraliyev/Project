@@ -1,0 +1,75 @@
+.child__psychologist__wr {
+     margin-top: 158px;
+
+     .child__psychologist__wr-titel {
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 38px;
+          color: $titel-color;
+     }
+
+     .child__psychologist__wr-text {
+          display: flex;
+          justify-content: space-between;
+          // gap: 160px;
+          margin-top: 30px;
+
+          @include media(578px) {
+               display: flex;
+               flex-direction: column;
+
+               .psychologists__person-card:first-child {
+                    background-color: aqua !important;
+               }
+          }
+     }
+
+     .text-card {
+          .text-titel {
+               font-weight: 700;
+               font-size: 20px;
+               line-height: 24px;
+               color: $titel-color;
+               // margin-top: 30px;
+          }
+
+          .text-decs {
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 22px;
+               color: $text-color;
+               margin-bottom: 10px;
+          }
+
+          .text-list {
+               margin-left: 20px;
+
+               .teext-list-atem {
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: $text-color;
+                    margin-bottom: 10px;
+               }
+          }
+     }
+
+     .text-card1 {
+
+          // width: 6000px;
+          .text-titel {
+               font-weight: 700;
+               font-size: 20px;
+               line-height: 24px;
+               color: $titel-color;
+               // margin-top: 30px;
+          }
+
+          .text-decs {
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 22px;
+               color: $text-color;
+               margin-bottom: 10px;
+          }
+     }
+}

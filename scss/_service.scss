@@ -1,0 +1,97 @@
+.service__wr{
+     margin-top: 140px;
+     .service-titel{
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 43px;
+          color: $titel-color;
+          text-align: center;
+          margin-bottom: 43px;
+     }
+     .service__wr__banner{
+          display: flex;
+          justify-content: space-between;
+          @include media(1028px){
+               flex-direction: column-reverse;
+          }
+          .service__wr__rating{
+               margin-top: 38px;
+               @include media(1069px){
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+               }
+               .service__wr__rating-card{
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 40px;
+                    span{
+                         font-weight: 700;
+                         font-size: 48px;
+                         line-height: 57px;
+                         color: rgba(255, 168, 0, 1);
+                         @include media(562px){
+                              font-weight: 700;
+                              font-size: 20px;
+                              line-height: 24px;
+                         }
+                    }
+                    p{
+                         font-weight: 400;
+                         font-size: 18px;
+                         line-height: 25px;
+                         color: $text-color;
+                         @include media(562px){
+                              font-weight: 400;
+                              font-size: 14px;
+                              line-height: 19px;
+                         }
+                    }
+               }
+          }
+     }
+     .banner-date{
+          display: flex;
+          align-items: center;
+          
+          justify-content: space-between;
+          @include media(900px){
+               display:flex;
+               flex-direction:column;
+               align-items: center;
+               justify-content: center;
+          }
+          .card{
+               max-width: 500px;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               gap: 20px;
+               padding: 20px 30px 20px 0px;
+               box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.05);
+               margin-top: 66px;
+               border-radius: 24px;
+               img{
+                    padding: 20px 20px 20px 30px;
+                    
+               }
+               .card__text{
+                    .card-titel{
+                         display: flex;
+                         font-weight: 700;
+                         font-size: 20px;
+                         line-height: 24px;
+                         color: $titel-color;
+                         margin-bottom: 5px;
+                    }
+                    .card-decs{
+                         font-weight: 400;
+                         font-size: 18px;
+                         line-height: 25px;
+                         color: $text-color; 
+                    }
+               }
+          }
+     }
+}

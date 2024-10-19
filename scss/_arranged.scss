@@ -1,0 +1,129 @@
+.arranged__wr{
+     margin-top: 144px;
+     .arranged__wr-titel{
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 43px;
+          color: $titel-color;
+          margin-bottom: 70px;
+          text-align: center;
+     }
+     .arranged__wr__text{
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+          .card__wr{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    
+               .text-card{
+                    margin-bottom: 105px;
+                    margin-top: 45px;
+                    @include media(980px){
+                         display: none;
+                    }
+                    margin-left: 45px;
+                    .arranged__wr__text-titel{
+                         font-weight: 700;
+                         font-size: 20px;
+                         line-height: 24px;
+                         color: rgba(14, 14, 15, 1);
+                         margin-bottom: 10px;
+                         display: flex;
+                         gap: 10px;
+                         .tartib1{
+                              margin-left: -45px;
+                              padding: 2px 12px;
+                              background-color: rgba(0, 185, 182, 0.1);
+                              color: rgba(0, 185, 182, 1);
+                              border-radius: 50%;
+                              width: 35px;
+                              height: 35px;
+                              text-align: center;
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+                         }
+                    }
+                    .arranged__wr__text-decs{
+                         font-weight: 400;
+                         font-size: 18px;
+                         line-height: 25px;
+                         color:rgba(51, 51, 51, 1);
+     
+                    }
+               }
+          }
+          
+     }
+     .arranged-btn-text{
+          margin-top: 52px;
+          margin-bottom: 40px;
+          h2{
+               font-weight: 700;
+               font-size: 18px;
+               line-height: 21px;
+               color: $titel-color;
+               margin-bottom: 10px;
+          }
+          p{
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 21px;
+               color: $text-color;
+          }
+          display: none;
+          @include media(980px){
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+          }
+     }
+     .arranged-btn-icons{
+          display: none;
+          margin-bottom: 50px;
+          gap: 35px;
+          .icon1{
+               width: 35px;
+               border-radius: 100px;
+               color: $pr-color;
+               background-color: rgba(0, 185, 182, 0.1);
+               text-align: center;
+               padding: 5px 13px;
+          }
+          .icon2{
+               width: 35px;
+               border-radius: 100px;
+               color: #fff;
+               background-color: $pr-color;
+               text-align: center;
+               padding: 5px 13px;
+               
+          }
+          @include media(980px){
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               // gap: 40px;
+          }
+     }
+     .arranged-btn{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          button {
+               text-align: center;
+               padding: 12px 30px 14px 30px;
+               border: 1px solid rgba(0, 185, 182, 1);
+               border-radius: 12px;
+               background-color: rgba(249, 253, 255, 1);
+               color:  rgba(0, 185, 182, 1);
+          }
+     }
+     .arranged__wr-img{
+          padding-right: 30px;
+     }
+}
+
